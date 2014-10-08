@@ -1,4 +1,4 @@
-XSL to transform check unit test xml report to JUnit xml report.
+XSL to transform [check](http://check.sourceforge.net/) unit test xml report to JUnit xml report.
 ================================================================
 
 Usage:
