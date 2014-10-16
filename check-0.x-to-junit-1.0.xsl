@@ -46,7 +46,7 @@
 
     <xsl:template match="x:fn">
         <xsl:attribute name="classname">
-            <xsl:value-of select="."/>
+            <xsl:value-of select="substring-before(., ':')"/>
         </xsl:attribute>
     </xsl:template>
 
